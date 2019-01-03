@@ -1,7 +1,9 @@
 # wibeee
 
 Service that receive events from wibeee sensor, decode and inject into WDP data pipeline (kafka based).
+
 More info for wibeee: http://wibeee.circutor.com
+
 More info for WDP: https://wizzie.io
 
 # BUILDING
