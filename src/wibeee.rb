@@ -41,7 +41,7 @@ def w2k(config_hash)
         end
     rescue Exception => e
         puts "Exception: #{e.class}, message: #{e.message}"
-        puts "Disconnecting from brokers"
+        puts "Disconnecting from kafka"
         kclient.shutdown
         puts "[#{@name}] Stopping wibeee2k poc thread"
     end 
